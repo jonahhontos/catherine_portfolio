@@ -28,6 +28,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn-primary{color: #fff;background:#666;width: 100%;outline: none;}
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#333;box-shadow: none;}
 
+.img-responsive {
+	margin: 0 auto;
+}
+
 #home {
 	background:url(../images/cat_bass.jpg) center no-repeat #fff;background-size: cover;
 }
@@ -122,7 +126,9 @@ button:focus{
 	font-size: 16px;
 }
 
-
+.bc-logo {
+	margin-top: -10px;
+}
 
 /*contact*/
 .contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
